@@ -15,6 +15,7 @@ This is a JavaFX desktop application that allows you to create and simulate Krus
 
 After downloading or setting up the project, your folder should look like this:
 
+```
 Project 2/
 ├── Kruskal_Algorithm/
 │   ├── Kruskal Algorithm.jar       ← Main application JAR
@@ -26,6 +27,8 @@ Project 2/
 │           ├── javafx.controls.jar
 │           ├── javafx.fxml.jar
 │           └── (other JavaFX modules)
+```
+
 
 
 ---
