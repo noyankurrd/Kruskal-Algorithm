@@ -15,7 +15,17 @@ This is a JavaFX desktop application that allows you to create and simulate Krus
 
 After downloading or setting up the project, your folder should look like this:
 
-<pre> ``` Project 2/ ├── Kruskal_Algorithm/ │ ├── Kruskal Algorithm.jar ← Main application JAR │ ├── run.bat ← Double-click to launch │ ├── README.md ← This file ├── Library/ │ └── javafx-sdk-24.0.1/ │ └── lib/ ← JavaFX libraries (already included!) │ ├── javafx.controls.jar │ ├── javafx.fxml.jar │ └── (other JavaFX modules) ``` </pre>
+Project 2/
+├── Kruskal_Algorithm/
+│ ├── Kruskal Algorithm.jar ← Main application JAR
+│ ├── run.bat ← Double-click to launch
+│ ├── README.md ← This file
+├── Library/
+│ └── javafx-sdk-24.0.1/
+│ └── lib/ ← JavaFX libraries (already included!)
+│ ├── javafx.controls.jar
+│ ├── javafx.fxml.jar
+│ └── (other JavaFX modules)
 
 ---
 
