@@ -87,4 +87,3 @@ This project is licensed under the MIT License — feel free to use, modify, and
 👤 Author
 
 Noyan Ali, Sabeeha Mir, Murtaza Jamal
-\n Feel free to reach out for feedback or contributions.
