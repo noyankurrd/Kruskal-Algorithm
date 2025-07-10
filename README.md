@@ -18,9 +18,12 @@ After downloading or setting up the project, your folder should look like this:
 ```
 Project 2/
 ├── Kruskal_Algorithm/
+│   ├── src                         ← Containing java files
+│   ├── out                         ← Containing class files
+├── Executable file/
 │   ├── Kruskal Algorithm.jar       ← Main application JAR
 │   ├── run.bat                     ← Double-click to launch
-│   ├── README.md                   ← This file
+├── README.md                       ← This file
 ├── Library/
 │   └── javafx-sdk-24.0.1/
 │       └── lib/                    ← JavaFX libraries (already included!)
