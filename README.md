@@ -7,30 +7,42 @@ This is a JavaFX desktop application that allows you to create and simulate Krus
 💻 Requirements
 
 - Java 17 or newer (install from https://adoptium.net/)
-- No need to install JavaFX separately — it's included in the lib/ folder
+- No need to install JavaFX separately — it's already included in the `Library/` folder
 
 ---
 
 📦 Folder Structure
 
-After cloning this repo, your folder will look like this:
+After downloading or setting up the project, your folder should look like this:
 
-Kruskal_Algorithm/
-├── Kruskal Algorithm.jar       ← main application JAR
-├── lib/                        ← JavaFX libraries (included!)
-│   ├── javafx.controls.jar
-│   ├── javafx.fxml.jar
-│   └── (other JavaFX modules)
-├── run.bat                     ← double-click to launch
-├── README.md                   ← this file
+Project 2/
+├── Kruskal_Algorithm/
+│   ├── Kruskal Algorithm.jar       ← Main application JAR
+│   ├── run.bat                     ← Double-click to launch
+│   ├── README.md                   ← This file
+├── Library/
+│   └── javafx-sdk-24.0.1/
+│       └── lib/                    ← JavaFX libraries (already included!)
+│           ├── javafx.controls.jar
+│           ├── javafx.fxml.jar
+│           └── (other JavaFX modules)
 
 ---
 
-🚀 How to Run the App (CMD or PowerShell)
+🚀 How to Run the App
 
-From the folder where the .jar is located:
+### ✅ Recommended: Double-click `run.bat`
 
-java --module-path "lib" --add-modules javafx.controls,javafx.fxml --enable-native-access=ALL-UNNAMED -jar "Kruskal Algorithm.jar"
+Located inside the `Executable file` folder.
+
+### 🔧 Or run manually from CMD/PowerShell:
+
+From inside the `Executable file` folder:
+
+java --module-path "..\Library\javafx-sdk-24.0.1\lib" ^
+     --add-modules javafx.controls,javafx.fxml ^
+     --enable-native-access=ALL-UNNAMED ^
+     -jar "Kruskal Algorithm.jar"
 
 ---
 
@@ -60,10 +72,10 @@ java --module-path "lib" --add-modules javafx.controls,javafx.fxml --enable-nati
 
 🧪 Troubleshooting
 
-❌ Error: QuantumRenderer: no suitable pipeline found
+❌ Error: QuantumRenderer: no suitable pipeline found  
 This means JavaFX native libraries weren’t loaded.
 
-✅ You must run the .jar using --module-path pointing to the correct lib/ directory and add the required modules like shown above.
+✅ Fix: You must run the `.jar` with `--module-path` pointing to the correct `lib/` directory and include `--add-modules` as shown above.
 
 ---
 
@@ -75,12 +87,6 @@ This project is great for:
 - Seeing Kruskal’s Algorithm in action
 - Exploring real-time graph interaction with JavaFX
 - Practicing event-driven GUI design and animation
-
----
-
-📝 License
-
-This project is licensed under the MIT License — feel free to use, modify, and share.
 
 ---
 
